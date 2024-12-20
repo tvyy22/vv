@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar{ width: 100%; height: 80px; border-bottom: 1px solid #E1E1E1; color: #E1E1E1;  line-height: 50px; position: absolute; left: 0; top: 0; z-index: 10; background-color: #E1E1E1 
+}
+
+
+.logo{ padding-top: 10px; width: 50%}
+.logo a{
+	text-decoration: none; font-size:32px; font-weight: bold; color: #F9DB3B
+}
+.logo a:hover{ color: #ED1A1D}
+.menu ul{
+	margin: 0; padding: 10px; list-style: none; display: flex
+}
+.menu ul li a{ 
+	text-decoration: none; padding: 10px 20px; text-transform: uppercase; color: rgba(53,51,51,1.00); display: block
+}
+.menu ul li a:hover{ background-color: rgba(255,255,255,0.5); color: #F9DB3B
+}
+/*dropdown menu*/
+.menu ul li{
+	position:relative
+}
+.menu .dropdown li{ 
+border-bottom: 1px dotted blue
+}
+.menu .dropdown{
+	position: absolute; left: 0;top: 100%; display: flex; flex-direction: column; background-color: rgba(39,34,35,0.4); width: 220px;display: none}
+.menu .dropdown li{ border-bottom: 1px dotted white}
+
+.menu ul li:hover .dropdown{ display: block}
+
+
+/*banner*/
+.banner{ padding-top: 80px; width:100%;  }
+
+
+/*new arial*/
+
+main{ width: 100%; min-height:600px
+}
+
+.gach0-chan{ border-bottom:2px solid darkred}
+.text-do{ color: darkred}
+
+.vien{ border: 1px solid red; padding: 10px; border-radius: 5px; overflow: hidden}
+
+.hinh{ 
+position: relative; overflow: hidden
+}
+.icon{
+	position: absolute; height: 40px; width: 80%; left: 10%; bottom: -17%; display: flex; justify-content: space-around; transition: all 1s
+	
+}
+.icon a{ 
+width: 40px; height: 40px; background-color: darkred; color: white; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none
+}
+.icon a:hover{ 
+color: darkred; background-color: #D5D5D5
+}
+.hinh:hover .icon{ bottom:45% }
+
+#feature{ width: 100%; min-height: 700px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom center}
+
+.PT-30{ padding-top: 30px}
+
+.vien-trang{ 
+width: 100%; min-height: 150px; border: 1px solid white; display: flex; flex-direction: column; justify-content: center; align-items: center
+}
+
+.vien-trang a{ text-decoration: none; color: darkred}
+.vien-trang a:hover{ 
+color: white
+}
+
+#contact { 
+width: 100%; min-height: 700px; background-image: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+.shadow{ 
+border: 1px solid gray; width: 100%; box-shadow: 5px 5px 5px gray; padding: 30px; min-height: 300px
+}
+
+.form-control{ 
+padding: 8px; width: 100%; margin-bottom: 10px
+}
+
+
